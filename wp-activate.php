@@ -43,6 +43,9 @@ if ( $key ) {
 		exit;
 	} else {
 		$result = wpmu_activate_signup( $key );
+		$result = wpmu_activate_signup( $key );
+		$result = wpmu_activate_signup( $key );
+		$result = wpmu_activate_signup( $key );
 	}
 }
 
