@@ -11,6 +11,8 @@
 /** We are located in WordPress Administration Screens */
 if ( ! defined( 'WP_ADMIN' ) ) {
 	define( 'WP_ADMIN', true );
+
+	//comment added
 }
 
 if ( defined( 'ABSPATH' ) ) {
