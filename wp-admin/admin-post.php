@@ -19,6 +19,7 @@ if ( defined( 'ABSPATH' ) ) {
 	require_once( ABSPATH . 'wp-load.php' );
 } else {
 	require_once( dirname( dirname( __FILE__ ) ) . '/wp-load.php' );
+	//comment added by vikrant
 }
 
 /** Allow for cross-domain requests (from the front end). */
