@@ -32,6 +32,8 @@ add_action( 'wp_head', 'do_signup_header' );
 if ( ! is_multisite() ) {
 	wp_redirect( wp_registration_url() );
 	die();
+	
+	System.out.println('File "LAST_UPDATE" is updated successfully.');
 }
 
 if ( ! is_main_site() ) {
